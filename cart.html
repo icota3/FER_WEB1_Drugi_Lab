@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>B3ST W3BSHOP</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/booze_or_lose_logo.png" alt="webshop logo">
+        <h1>Pregled Vaše kupovine</h1>
+        <div class="kosarica-wrapper">
+            <img class="glass-icon" src="/images/magnifying-glass.svg" alt="search icon">
+            <a href="index.html">Izađi iz košarice</a>
+        </div>
+    </header>
+    <main id="cart-main">
+        <div class="cart-naslov">
+            <h2>Košarica</h2>
+        </div>
+        <table class="table-cart">
+          <thead>
+            <tr>
+              <th>Proizvod</th>
+              <th>Količina</th>
+            </tr>
+          </thead>
+          <tbody id="table_body">
+          </tbody>
+        </table>
+          <div class="cart-ukupno">
+            <h2>Ukupno: (zasad nista)</h2>
+            <!-- ovu funkciju reload() sam morao dodati ovdje jer mi se ne želi pozvati iz cart.js, nemam pojma zašto. samo uporno odbija
+            dok se druga funkcija želi pozvati, pa eto, sam nju naveo ipak tako -->
+            <p onclick="window.location.reload(); ocistiKosaricu()">Isprazni <br> košaricu</p>
+        </div>
+    </main>
+    <script src="scripts/cart.js"></script>
+</body>
+</html>

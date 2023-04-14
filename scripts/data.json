@@ -1,0 +1,243 @@
+{
+    "website":"Piće",
+    "categories":[
+        {
+            "name":"Akcija",
+            "image":"akcija.jpg",
+            "products":[
+                {
+                    "name":"Svijetlo pivo 0.5l - Akcija", "image":"/images/svijetlopivo.jpg"
+                },
+                {
+                    "name":"Bijelo vino 0.75l - Akcija", "image":"/images/bijelovino.jpg"
+                },
+                {
+                    "name":"Single malt whiskey 0.7l - Akcija", "image":"/images/singlemaltwhiskey.jpg"
+                },
+                { 
+                    "name":"Lozovača 0.7l - Akcija", "image":"/images/lozovaca.jpg"
+                },
+                {
+                    "name":"Pelinkovac 0.7l - Akcija", "image":"/images/pelinkovac.jpg"
+                },
+                {   
+                    "name":"Mirogojcek 0.7l - Akcija", "image":"/images/mirogojcek.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Pivo",
+            "image":"pivo.jpg",
+            "products":[
+                {
+                    "name":"Svijetlo pivo 0.5l", "image":"/images/svijetlopivo.jpg"
+                },
+                {
+                    "name":"Tamno pivo 0.5l", "image":"/images/tamnopivo.jpg"
+                },
+                {
+                    "name":"Rezano pivo 0.5l", "image":"/images/rezanopivo.jpg"
+                },
+                { 
+                    "name":"Svijetlo pivo 1l", "image":"/images/svijetlopivo.jpg" 
+                },
+                {
+                    "name":"Tamno pivo 1l", "image":"/images/tamnopivo.jpg"
+                },
+                {   
+                    "name":"Rezano pivo 1l", "image":"/images/rezanopivo.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Vino",
+            "image":"vino.jpg",
+            "products":[
+                {
+                    "name":"Crno vino 0.75l", "image":"/images/crnovino.jpg"
+                },
+                {
+                    "name":"Bijelo vino 0.75l", "image":"/images/bijelovino.jpg"
+                },
+                {
+                    "name":"Rose vino 0.75l", "image":"/images/rosevino.jpg"
+                },
+                {
+                    "name":"Pjenušavo vino 0.75l", "image":"/images/pjenusavovino.jpg"
+                },
+                {
+                    "name":"Desertno vino 0.75l", "image":"/images/desertnovino.jpg"
+                }
+            ]
+
+        },
+        {
+            "name":"Whiskey",
+            "image":"whiskey.jpg",
+            "products":[
+                {
+                    "name":"Bourbon 0.7l", "image":"/images/bourbon.jpg"
+                },
+                {
+                    "name":"Blend whiskey 0.7l", "image":"/images/blendwhiskey.jpg"
+                },
+                {
+                    "name":"Single malt whiskey 0.7l", "image":"/images/singlemaltwhiskey.jpg"
+                },
+                {
+                    "name":"Irish whiskey 0.7l", "image":"/images/irishwhiskey.jpg"
+                },
+                {
+                    "name":"Scotch whiskey 0.7l", "image":"/images/scotchwhiskey.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Rakija",
+            "image":"rakija.jpg",
+            "products":[
+                {
+                    "name":"Šljivovica 0.7l", "image":"/images/sljivovica.jpg"
+                },
+                {
+                    "name":"Višnjevača 0.7l", "image":"/images/visnjevaca.jpg"
+                },
+                {
+                    "name":"Kruškovac 0.7l", "image":"/images/kruskovac.jpg"
+                },
+                {
+                    "name":"Lozovača 0.7l", "image":"/images/lozovaca.jpg"
+                },
+                {
+                    "name":"Medica 0.7l", "image":"/images/medica.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Vodka",
+            "image":"vodka.jpg",
+            "products":[
+                {
+                    "name":"Poljska vodka 0.7l", "image":"/images/poljskavodka.jpg"
+                },
+                {   
+                    "name":"Vodka citrus 0.7l", "image":"/images/vodkacitrus.jpg"
+                },
+                {
+                    "name":"Vodka jagoda 0.7l", "image":"/images/vodkajagoda.jpg"
+                },
+                {
+                    "name":"Vodka borovnica 0.7l", "image":"/images/vodkaborovnica.jpg"
+                },
+                {
+                    "name":"Ruska vodka 0.7l", "image":"/images/ruskavodka.jpg"
+                }
+            ]
+        },
+        {   
+            "name":"Likeri",
+            "image":"likeri.jpg",
+            "products":[
+                {
+                    "name":"Liker jagoda 0.7l", "image":"/images/likerjagoda.jpg"
+                },
+                {
+                    "name":"Pelinkovac 0.7l", "image":"/images/pelinkovac.jpg"
+                },
+                {
+                    "name":"Liker limun 0.7l", "image":"/images/likerlimun.jpg"
+                },
+                {
+                    "name":"Amaretto 0.7l", "image":"/images/amaretto.jpg"
+                },
+                {
+                    "name":"Cointreau 0.7l", "image":"/images/cointreau.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Gin",
+            "image":"gin.jpg",
+            "products":[
+                {
+                    "name":"London dry gin0.7l", "image":"/images/londondry.jpg"
+                },
+                {
+                    "name":"Plymouth gin 0.7l", "image":"/images/plymouthgin.jpg"
+                },
+                {
+                    "name":"Old Tom gin 0.7l", "image":"/images/oldtomgin.jpg"
+                },
+                {
+                    "name":"Jenever gin 0.7l", "image":"/images/jenevergin.jpg"
+                },
+                {
+                    "name":"New Western gin 0.7l", "image":"/images/newwesterngin.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Tequila",
+            "image":"tequila.jpg",
+            "products":[
+                {
+                    "name":"Tequila blanco 0.7l", "image":"/images/tequilablanco.jpg"
+                },
+                {
+                    "name":"Tequila reposado 0.7l", "image":"/images/tequilareposado.jpg"
+                },
+                {
+                    "name":"Tequila añejo 0.7l", "image":"/images/tequilaanejo.jpg"
+                },
+                {
+                    "name":"Tequila extra añejo 0.7l", "image":"/images/tequilaexanejo.jpg"
+                },
+                {
+                    "name":"Tequila gold 0.7l", "image":"/images/tequilagold.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Brandy",
+            "image":"brandy.jpg",
+            "products":[
+                {
+                    "name":"Cognac 0.7l", "image":"/images/cognac.jpg"
+                },
+                {
+                    "name":"Armagnac 0.7l", "image":"/images/armagnac.jpg"
+                },
+                {
+                    "name":"Mirogojcek 0.7l", "image":"/images/mirogojcek.jpg"
+                },
+                {
+                    "name":"Grappa 0.7l", "image":"/images/grappa.jpg"
+                },
+                {
+                    "name":"Calvados 0.7l", "image":"/images/calvados.jpg"
+                }
+            ]
+        },
+        {
+            "name":"Rum",
+            "image":"rum.jpg",
+            "products":[
+                {
+                    "name":"White rum 0.7l", "image":"/images/whiterum.jpg"
+                },
+                {
+                    "name":"Dark rum 0.7l", "image":"/images/darkrum.jpg"
+                },
+                {
+                    "name":"Spiced rum 0.7l", "image":"/images/spicedrum.jpg"
+                },
+                {
+                    "name":"Gold rum 0.7l", "image":"/images/goldrum.jpg"
+                },
+                {
+                    "name":"Aged rum 0.7l", "image":"/images/agedrum.jpg"
+                }
+            ]
+        }  
+    ]
+}

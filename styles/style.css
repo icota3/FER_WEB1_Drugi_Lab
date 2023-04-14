@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'AwesomeFont';
+    src: url('/fonts/fa-v4compatibility.woff2')format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@media screen and (max-width: 1024px) {
+    header {
+    
+      height: 10vh;
+    }
+    footer {
+      height: 10vh;
+    }
+    header h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+        width: 100%;
+
+    }
+  }
+
+body {
+    margin: 0;
+    font-family: 'AwesomeFont', sans-serif;
+    background-color: #353C40;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+header h1 {
+    display: flex;
+    margin: 0;
+    width: 66%;
+    height: 100%;
+    border: 1px solid #000;
+    background-color: #D4AF37;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+#index-main {
+    display: flex;
+}
+
+#index-main section {
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: #D4AF37;
+}
+
+.logo {
+    display: inline;
+    height: 100%;
+    max-width: 100px;
+    border: 1px solid #000;
+}
+
+.kosarica-wrapper {
+    height: 100%;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D4AF37;
+    border: 1px solid #000;
+}
+.kosarica-wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.glass-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40%;
+}
+
+.cart-icon {
+    margin-right: 20px;
+    height: 40%;
+}
+
+.kosarica-wrapper img:hover {
+    transform: scale(1.2);
+}
+/*zelimo da nam se banner povecava kako sirimo prozor*/
+.banner {
+    margin: 1em;
+    display: inline-block;
+    border: 1px solid black;
+    background-image: url(/images/front-view-different-drinks-colorful-inside-bottles.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 95%;
+    text-align: center;
+}
+/*nisam siguran zašto bi morali imati pozdravni text iznad slike,
+bolje je tipa da ovdje stoji prikaz kategorije ali dobro...*/
+.banner h2 {
+    display: inline-block;
+    background-color: #D4AF37;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.proizvodi .item:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+    opacity: 0.5;
+}
+/*nije mi jasno zašto nikako ne mogu pobijediti gornji selektor
+evo probao sam čak i sa ovim ilegalnim id-jem i ne mogu*/
+#basket-icon:hover {
+    opacity: 1;
+}
+
+.proizvodi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    position: relative;
+    width: 198px;
+    height: 198px;
+    border: 1px solid #000;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #D4AF37;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.list {
+    padding: 0;
+    display: grid;
+    text-align: center;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    border: 1px solid black;
+    background-color: #D4AF37
+}
+/*malo efekata*/
+.list li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.cart-naslov {
+    display: flex;
+    justify-content: center;
+    background-color: #D4AF37;
+    margin: 5% auto;
+    border: #000 1px solid;
+    max-width: 50%;
+}
+.cart-ukupno {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D4AF37;
+    margin: auto;
+    border: #000 1px solid;
+    max-width: 50%;
+}
+
+.cart-ukupno p{
+    margin-right: 10px;
+}
+
+.cart-ukupno p:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    font-weight: bold;
+    color: red; /*čisto da upozorimo naše drage kupce*/
+}
+
+#basket-icon {
+    height: 33%;
+    width: 33%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.table-cart {
+    display: flex;
+    flex-direction: column;
+    background-color: #D4AF37;
+    margin: 5% auto;
+    border: #000 1px solid;
+    max-width: 50%;
+}
+/*ovo dalje ne uspijevam naštimati, previše vremena mi je oduzelo već*/
+.table-cart thead th {
+    text-align: left;
+}
+
+.table-cart tbody {
+    display: flexbox;
+}
+
+.table-cart tbody td {
+    text-align: right;
+}
