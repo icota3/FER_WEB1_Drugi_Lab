@@ -25,8 +25,8 @@ function createList(data) {
         productDiv.classList.add('item');
         
         //pokušao sam dodati brojače za količine proizvoda ali sam odustao
-        //const productName = document.createElement('p');
-        //productName.textContent = products[j].name;
+        const productName = document.createElement('p');
+        productName.textContent = products[j].name;
 
         const productImage = document.createElement('img');
         productImage.classList.add('img-proizvoda');
